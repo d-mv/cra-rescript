@@ -6,6 +6,7 @@
     "name": "Dmitry Melnikov",
     "email": "d.dash.mv@gmail.com"
   },
+  "keywords": ["React","rescript"],
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
