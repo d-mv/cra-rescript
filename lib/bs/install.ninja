@@ -1,0 +1,21 @@
+rescript = 1
+rule cp
+  command = cp $i $out
+rule touch
+ command = touch $out
+o App-CreateReactAppRescript.cmi : cp ../bs/src/App-CreateReactAppRescript.cmi
+o App-CreateReactAppRescript.cmj : cp ../bs/src/App-CreateReactAppRescript.cmj
+o App-CreateReactAppRescript.cmt : cp ../bs/src/App-CreateReactAppRescript.cmt
+o App.res : cp ../../src/App.res
+o Index-CreateReactAppRescript.cmi : cp ../bs/src/Index-CreateReactAppRescript.cmi
+o Index-CreateReactAppRescript.cmj : cp ../bs/src/Index-CreateReactAppRescript.cmj
+o Index-CreateReactAppRescript.cmt : cp ../bs/src/Index-CreateReactAppRescript.cmt
+o Index.res : cp ../../src/Index.res
+o logo-CreateReactAppRescript.cmi : cp ../bs/src/assets/logo-CreateReactAppRescript.cmi
+o logo-CreateReactAppRescript.cmj : cp ../bs/src/assets/logo-CreateReactAppRescript.cmj
+o logo-CreateReactAppRescript.cmt : cp ../bs/src/assets/logo-CreateReactAppRescript.cmt
+o logo.res : cp ../../src/assets/logo.res
+o CreateReactAppRescript.cmi : cp ../bs/CreateReactAppRescript.cmi
+o CreateReactAppRescript.cmj : cp ../bs/CreateReactAppRescript.cmj
+o CreateReactAppRescript.cmt : cp ../bs/CreateReactAppRescript.cmt
+build install.stamp : touch App-CreateReactAppRescript.cmi App-CreateReactAppRescript.cmj Index-CreateReactAppRescript.cmi Index-CreateReactAppRescript.cmj logo-CreateReactAppRescript.cmi logo-CreateReactAppRescript.cmj CreateReactAppRescript.cmi CreateReactAppRescript.cmj
