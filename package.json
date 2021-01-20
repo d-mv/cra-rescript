@@ -1,6 +1,11 @@
 {
-  "name": "create-react-app-rescript",
+  "name": "cra-rescript",
   "version": "0.1.0",
+  "description": "A Create React App with Rescript support",
+  "author": {
+    "name": "Dmitry Melnikov",
+    "email": "d.dash.mv@gmail.com"
+  },
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",

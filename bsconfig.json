@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
-  "name": "create-react-app-rescript",
+  "name": "cra-rescript",
   "reason": {
     "react-jsx": 3
   },
