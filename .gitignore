@@ -27,3 +27,4 @@ dist
 .merlin
 .eslintcache
 lib
+.bsb.lock
